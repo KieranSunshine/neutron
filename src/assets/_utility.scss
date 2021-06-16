@@ -1,0 +1,7 @@
+@mixin no-padding {
+    padding: 0;
+}
+
+@mixin max-height {
+	min-height: 100vh;
+}
