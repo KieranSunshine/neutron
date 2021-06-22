@@ -1,15 +1,18 @@
 <template>
 	<el-container id="app">
+		<side-menu />
 		<neutron-main />
 	</el-container>
 </template>
 
 <script>
 	import NeutronMain from './views/NeutronMain.vue';
+	import SideMenu from './components/SideMenu.vue';
 
 	export default {
 		name: 'App',
 		components: {
+			SideMenu,
 			NeutronMain,
 		},
 	};
